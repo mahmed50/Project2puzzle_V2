@@ -107,8 +107,8 @@ window.onload = function () {
     }
   }
 
-  document.getElementById("shuffle").onclick = shuffle;
-  document.getElementById("cheat").onclick = cheat;
+  document.getElementById("shuffleButton").onclick = shuffle;
+  document.getElementById("cheatButton").onclick = cheat;
   document.getElementById("backgroundSelector").onchange = function (e) {
     const bg = e.target.value;
     tiles.forEach((tile, i) => {
