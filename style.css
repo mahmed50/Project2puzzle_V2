@@ -1,1 +1,47 @@
-#puzzlearea { width: 400px; height: 400px; position: relative; } .tile { width: 96px; height: 96px; position: absolute; }
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 2em;
+}
+h1 {
+  margin-bottom: 0.5em;
+}
+#puzzlearea {
+  width: 400px;
+  height: 400px;
+  margin: 1em auto;
+  position: relative;
+}
+.tile {
+  width: 96px;
+  height: 96px;
+  line-height: 96px;
+  border: 2px solid black;
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  background-size: 400px 400px;
+}
+.movablepiece {
+  border-color: red;
+  text-decoration: underline;
+  color: #006600;
+  cursor: pointer;
+}
+.controls {
+  margin-top: 1em;
+}
+#stats {
+  margin-top: 1em;
+  font-size: 18px;
+}
+#winMessage {
+  font-size: 20px;
+  color: green;
+  margin-top: 1em;
+}
