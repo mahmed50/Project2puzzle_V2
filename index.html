@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fifteen Puzzle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Fifteen Puzzle</h1>
+  <div id="stats">
+    <p><strong>Time:</strong> <span id="timer">00:00</span> | <strong>Moves:</strong> <span id="moveCounter">0</span></p>
+  </div>
+  <div id="puzzlearea"></div>
+  <div class="controls">
+    <button id="shuffleButton">Shuffle</button>
+    <button id="cheatButton">Cheat</button>
+    <select id="backgroundSelector">
+      <option value="background.jpg">Default Background</option>
+      <option value="nature.jpg">Nature</option>
+      <option value="space.jpg">Space</option>
+      <option value="city.jpg">City</option>
+    </select>
+  </div>
+  <p id="winMessage"></p>
+  <script src="fifteen.js"></script>
+</body>
+</html>
